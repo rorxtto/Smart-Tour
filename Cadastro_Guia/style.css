@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins
+}
+
+#img{
+    position: absolute;
+    width: 457.95px;
+    height: 815px;
+}
+
+#titulo{
+    margin-left: 600px;
+    margin-top: 0px;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#principal{
+    margin-left: 600px;
+    flex-direction: column;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+#dados{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#subtitulo{
+    font-size:  30px;
+    margin-bottom: 0px;
+}
+
+#botao{
+    margin-left: 850px;
+    width: 125px;
+    height: 35px;
+    border: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#link{
+    margin-left: 790px;
+    color: #18A900;
+    text-decoration: underline;
+}
+
+#link2{
+    margin-left: 885px;
+    color: #18A900;
+    text-decoration: underline;
+}
