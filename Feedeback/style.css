@@ -1,0 +1,145 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+#entrar{
+    background-color: #18A900;
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 20px;
+}
+
+#perfil{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+#logar{
+    display: flex;
+    font-size: 14px;
+    margin-left: 1200px;
+    margin-top: 31px;
+}
+
+#entrar-txt{
+    margin-left: 15px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 25px;
+}
+
+#titulo{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#slogan{
+    font-size: 40px;
+    margin-left: 440px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: Poppins;
+}
+.feedback {
+    font-size: 25px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    padding-top: 0px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+  
+    width: 40px;
+    height: 40px;
+
+  }
+footer{
+    display:flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+section{
+    display: flex;
+    min-height: 10vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 35px;
+    background-color: #93bf85;
+    margin: auto;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+form label{
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    transition: all 0.5s;
+
+}
+form input:focus{
+    border-radius: 16px;
+
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px ;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+
+    border-radius: 16px;
+}

@@ -1,0 +1,34 @@
+body{
+    font-family: Poppins;
+}
+
+
+
+section{
+    border: 0px solid #ccc;
+    background-color: #f2f2f2;
+    
+    width: 500px;
+    justify-content: center;
+    display:flex;
+    width: 1110px;
+    padding: 5px 20px;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    height: 10px 30px;
+    width: 950px;
+}
+section p{
+    font-size: 20px;
+}
