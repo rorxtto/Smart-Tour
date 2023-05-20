@@ -1,0 +1,176 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins
+   
+}
+
+#entrar{
+    background-color: #18A900;
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+#logar{
+    display: flex;
+    font-size: 14px;
+    margin-left: 1200px;
+    margin-top: 31px;
+    
+}
+
+#entrar-txt{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#criar_conta{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    
+}
+
+#titulo{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#slogan{
+    font-size: 40px;
+    margin-left: 440px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    
+}
+
+#texto{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+#cad-atv{
+    width: 477px;
+    height: 55px;
+    
+}
+
+#principal{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#text{
+    color: #7F7F7F;
+}
+
+.fonte-cadastro {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #18A900;
+    border: none;
+    width: 218px;
+    height: 51px;
+    font-size: 14px;
+    font-weight: 500;
+
+        
+}
+
+#campo-preenchimento{
+    width: 477px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    border:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+.campo{
+    margin-bottom: 1em;
+   
+}
+
+fieldset grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: center;
+     
+}
+
+.campo input[type="text"]{
+    padding: 0.2m;
+    display: block;
+
+}
+
+.fonte-cadastro-1 {
+
+    display: flex;
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    flex-direction: column;
+
+}
+
+#perfil{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
