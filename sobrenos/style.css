@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins
+}
+
+#entrar{
+    background-color: #18A900;
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 20px;
+}
+
+#perfil{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+#logar{
+    display: flex;
+    font-size: 14px;
+    margin-left: 1200px;
+    margin-top: 31px;
+}
+
+#entrar-txt{
+    margin-left: 15px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 25px;
+}
+
+#titulo{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#slogan{
+    font-size: 40px;
+    margin-left: 440px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: Poppins;
+}
+
+.text img{
+    width: 500px;
+    height: 600px;
+    border: 0px;
+    float: left;
+   
+}
+
+.text h2{
+    text-align: center;
+    flex-direction: column;
+    left: auto;
+    font-size: 40px;
+    margin-left: 100px;
+    height: 0px;
+    display: flex;
+    line-height: 1.2;
+   
+}
+
+.text p{
+    text-align: center;
+    padding: 35px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    max-width: 700px; /* ou qualquer valor que seja apropriado */
+     margin:  auto;
+     line-height: 1.5;
+     
+
+}
