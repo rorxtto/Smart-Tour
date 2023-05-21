@@ -50,96 +50,33 @@ body{
 }
 #slogan{
     font-size: 40px;
-    margin-left: 440px;
+    display: flex ;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 100px;
     font-family: Poppins;
 }
-.feedback {
-    font-size: 25px;
-    margin-left: 250px;
-    margin-bottom: 50px;
-    padding-top: 0px;  
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer img {
-  
-    width: 40px;
-    height: 40px;
-
-  }
-footer{
-    display:flex;
-    justify-content: center;
-}
-
-footer a{
-    margin: 20px;
-    text-align: center;
-}
-
-footer p{
-    margin-top: 2px;
-}
-
-section{
+#article{
     display: flex;
-    min-height: 10vh;
-    box-sizing: border-box;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5px 35px;
-    background-color: #93bf85;
-    margin: auto;
-    width: 500px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-section form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
-}
-form label{
-    font-size: 17px;
-    margin-bottom: 4px;
-}
-form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    transition: all 0.5s;
-
-}
-form input:focus{
-    border-radius: 16px;
-
-}
-form textarea{
-    padding: 10px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-}
-form textarea:focus{
-    border-radius: 16px;
-
+#centro{
+    width: 833px;
+    height: 420px;
+    background-color: rgba(24, 169, 0, 0.4);
+    border: 1px solid #000000;
+    border-radius: 10px;
 }
 
-form button{
-    padding: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    border: 2px ;
-    transition: all 1s;
-    margin-bottom: 20px;
+#input{
+    width: 800px;
+    height: 48px;
 }
-form button:hover{
 
-    border-radius: 16px;
+#input3{
+    width: 800px;
+    height: 180px;
+    text-align: right;
 }
+
