@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTour</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <section id="home">
+        <header>
+            <div id="logar">
+                <a id="criar_conta" href="/Cadastro_Turista/turista.html"> Criar conta </a>
+                <div id="entrar">
+                    <img id="perfil" src="./img/perfil.png">
+                    <a id="entrar-txt" href="/Login/login.html"> Entrar</a>
+                </div>
+            </div>
+
+            <div id="cabecalho">
+
+                <div class="tags">
+                    <p> Guias </p>
+                    <p> Atividade </p>
+                    <p id="titulo"> Smart Tour </p>
+                    <p> Sobre nós </p>
+                    <p> Contatos </p>
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <article>
+            <div>
+                <p id="slogan"> Seu turismo mais inteligente </p>
+            </div>
+            
+            <div id="principal">
+                <h2 class="fonte-cadastro-1"><strong>Cadastro de Atividades</strong></h2>
+            </div>
+        </article>
+
+            <form>
+                <fieldset class="grupo">
+                    <div>
+                        <label for="nome" class="fonte-cadastro">Digite o nome da Atividade</label>
+                        <input id="campo-preenchimento" type="text" name="Nome-da-Atividade" id="nome" required>
+                    </div>
+
+                    <div>
+                        <label for="descricao" class="fonte-cadastro">Informe a Descrição da Atividade</label>
+                        <input id="campo-preenchimento" type="text" name="Descricao" id="descricao" required>
+                    </div>
+
+                    <div>
+                        <label for="disponibilidade" class="fonte-cadastro">Informe a Data de Disponibilidade</label>
+                        <input id="campo-preenchimento" type="text" name="disponibilidade" id="disponibilidade" required>
+                    </div>
+
+                    <div>
+                        <label for="fotos" class="fonte-cadastro">Adicione até 3 fotos da atvidade</label>                        
+                    </div>
+                    <button id="botao">Carregar Foto</button>
+
+                    <div>
+                        <label for="valor" class="fonte-cadastro">Valor da Atividade</label>
+                        <input id="campo-preenchimento" type="text" name="valor" id="valor" required>
+                    </div>
+
+                    <div>
+                        <label for="sexo" class="fonte-cadastro">Sexo</label>
+                        <label>
+                            <input type="radio" nome="sexo" value="Masculino" checked>Masculino
+                        </label>    
+                            <label>
+                                <input for="sexo" type="radio" nome="sexo" value="Feminino">Feminino
+                            </label>
+                    </div>
+                    <button id="botao" type="submit">Enviar</button>
+
+                </fieldset>
+
+            
+            </form>
+            
+</body>
+</html>

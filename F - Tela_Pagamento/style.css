@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins
+}
+
+#titulo {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#text-Titulos {
+
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+#container_Info {
+
+    background-color:#D9D9D9;;
+    display: flex;
+    flex-direction: column;
+    width: 801;
+    height: 132;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+#infos {
+
+    display: flex;
+    justify-content: center;
+}
+
+#info_guia {
+
+    display: flex;
+    margin-left: 155px;
+    margin-right: 25%;
+    justify-content: space-between;
+
+}
+
+#info_cadastur {
+
+    display: flex;
+    margin-left: 155px;
+    margin-right: 25%;
+    justify-content: space-between;
+
+}
+
+
+#container-Pag {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+
+}
+
+#text {
+    background-color:#D9D9D9;;
+    color: rgb(12, 3, 3);
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+#input-pagamento {
+
+    background-color: #D9D9D9;;
+    margin-left: 20%;
+    border: none;
+    padding: 15px;
+    width: 58%;
+
+}
+
+#info_pag {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+#text_mes {
+
+    width: 25%;
+    height: 100x;
+    border: none;
+    background-color: #D9D9D9;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#text_ano {
+
+    width: 25%;
+    height: 60x;
+    border: none;
+    background-color: #D9D9D9;;
+    color: rgb(5, 3, 3);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+#textos-data {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+#btn {
+    background-color: green;
+    border-radius: 3px;
+    border: none;
+    margin-top: 40px;
+    width: 20%;
+    height: 60px;
+    color: rgb(14, 8, 8);
+    margin-left: 40%;
+    margin-right: 20%;
+}
