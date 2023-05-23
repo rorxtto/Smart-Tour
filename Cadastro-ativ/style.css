@@ -16,13 +16,11 @@ body{
     margin-left: 20px;
 }
 
-
 #logar{
     display: flex;
     font-size: 14px;
     margin-left: 1200px;
     margin-top: 31px;
-    
 }
 
 #entrar-txt{
@@ -43,7 +41,6 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 0;
-    
 }
 
 #titulo{
@@ -56,8 +53,7 @@ body{
     font-size: 40px;
     margin-left: 440px;
     margin-top: 0;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px; 
 }
 
 #texto{
@@ -69,7 +65,6 @@ body{
 #cad-atv{
     width: 477px;
     height: 55px;
-    
 }
 
 #principal{
@@ -80,7 +75,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 #text{
@@ -88,7 +82,6 @@ body{
 }
 
 .fonte-cadastro {
-
     display: flex;
     align-items: center;
     font-family: 'Poppins';
@@ -113,9 +106,7 @@ body{
     width: 218px;
     height: 51px;
     font-size: 14px;
-    font-weight: 500;
-
-        
+    font-weight: 500;    
 }
 
 #campo-preenchimento{
@@ -132,13 +123,11 @@ fieldset{
     border:0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-        
+    align-items: center;       
 }
 
 .campo{
-    margin-bottom: 1em;
-   
+    margin-bottom: 1em; 
 }
 
 fieldset grupo{
@@ -146,17 +135,14 @@ fieldset grupo{
     flex-direction: column;
     align-items: center;
     float: center;
-     
 }
 
 .campo input[type="text"]{
     padding: 0.2m;
     display: block;
-
 }
 
-.fonte-cadastro-1 {
-
+.fonte-cadastro-1{
     display: flex;
     margin-top: 0;
     font-family: 'Poppins';
@@ -165,7 +151,6 @@ fieldset grupo{
     font-size: 30px;
     line-height: 30px;
     flex-direction: column;
-
 }
 
 #perfil{

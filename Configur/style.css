@@ -3,7 +3,6 @@ body{
     margin: 0;
     border: 0;
     font-family: Poppins
-   
 }
 
 #entrar{
@@ -16,13 +15,11 @@ body{
     margin-left: 20px;
 }
 
-
 #logar{
     display: flex;
     font-size: 14px;
     margin-left: 1200px;
-    margin-top: 31px;
-    
+    margin-top: 31px;   
 }
 
 #entrar-txt{
@@ -42,8 +39,7 @@ body{
 .tags{
     display: flex;
     justify-content: space-around;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 #titulo{
@@ -57,7 +53,6 @@ body{
     margin-left: 440px;
     margin-top: 0;
     margin-bottom: 100px;
-    
 }
 
 #texto{
@@ -74,13 +69,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 #text{
     color: #7F7F7F;
-    }
-
+}
 
 #botao{
     display: flex;
@@ -95,9 +88,7 @@ body{
     width: 218px;
     height: 51px;
     font-size: 14px;
-    font-weight: 500;
-
-        
+    font-weight: 500;       
 }
 
 #perfil{
@@ -107,7 +98,7 @@ body{
     margin-left: 16px;
 }
 
-.fonte-cadastro {
+.fonte-cadastro{
 
     display: flex;
     align-items: center;
@@ -125,12 +116,10 @@ fieldset{
     border:0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-       
+    align-items: center;    
 }
 
-.fonte-cadastro-1 {
-
+.fonte-cadastro-1{
     display: flex;
     margin-top: 0;
     font-family: 'Poppins';
@@ -139,7 +128,6 @@ fieldset{
     font-size: 30px;
     line-height: 30px;
     flex-direction: column;
-
 }
 
 .subtitulo{
@@ -152,7 +140,6 @@ fieldset{
     font-size: 25px;
     line-height: 24px;
     color:#7F7F7F
-
 }
 
 #change-foto{
@@ -175,7 +162,7 @@ fieldset{
     margin-bottom: 10px;
 }
 
-input::placeholder {
+input::placeholder{
     font-size: 20px;
     text-align: center;
 }
