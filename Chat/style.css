@@ -1,0 +1,207 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins
+}
+
+.entrar {
+    background-color: #18A900;
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 20px;
+}
+
+.perfil {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+.logar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.entrar-txt {
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.criar_conta {
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    font-size: 25px;
+    height: 5rem;
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: 275;
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 48px;
+}
+
+.chatcompleto {
+    display: flex;
+}
+
+.chatcompleto {
+    display: flex;
+    justify-content: center;
+}
+
+.contatos {
+    border: 1px solid #000;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 348px;
+}
+
+.fotocontatos {
+    border-radius: 50%;
+}
+
+.textomensagens {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardcontato {
+    display: flex;
+    gap: 1rem;
+}
+
+.nomeetexto {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    align-items: flex-start;
+}
+
+.campodechat {
+    border-radius: 2%;
+    width: 1092px;
+    background-color: rgba(24, 169, 0, 0.4);
+}
+
+.textoconversa {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conversadochat1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5rem;
+    gap: 1rem;
+}
+
+.fotoronaldonochat {
+    border-radius: 50%;
+}
+
+.bomdia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 68px;
+    background: #D9D9D9;
+    border-radius: 30px;
+}
+
+.turistanochat {
+    border-radius: 50%;
+}
+
+.conversadochat2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5rem;
+    gap: 1rem;
+}
+
+.entradadetextoebotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixacinza {
+    display: flex;
+    align-items: center;
+    width: 776px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7F7F7F;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.botaoverde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18A900;
+    width: 111px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.entradadetextoebotao {
+    display: flex;
+    gap: 2rem;
+}
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}

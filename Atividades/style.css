@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.375rem;
+}
+
+hr {
+    height: 0.1rem;
+    margin-left: -8px;
+    width: 84.2rem;
+    background-color: rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.logoturistas {
+    border-radius: 50px;
+}
+
+.Empresa {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.imagensgrandes {
+    display: flex;
+    gap: 2rem;
+}
+
+.oncaimagem {
+    display: flex;
+    width: 981px;
+    height: 413px;
+}
+
+.imagem2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.textoeanuncio {
+    display: flex;
+    justify-content: center;
+    width: 1341px;
+}
+
+.refugiotexto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloregufio {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+}
+
+.textorefugio {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 305px;
+}
+
+.fotoenome {
+    display: flex;
+}
+
+.fotoguia {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 88px;
+    height: 85px;
+    border-radius: 50px;
+}
+
+.ajustarnomeguia {
+    margin-left: 3rem;
+}
+
+.tagguia {
+    margin-left: -23px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18A900;
+}
+
+.nomeguia {
+    margin-top: -40px;
+    margin-left: -30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.tempoativ {
+    margin-left: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.textoanuncio {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.valoratividade {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 1rem;
+}
+
+.botao-verde {
+    background-color: #18A900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: -1.5rem;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
