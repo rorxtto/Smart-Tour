@@ -97,3 +97,15 @@ body{
     color: #18A900;
     margin-top: 15px;
 }
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#a-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

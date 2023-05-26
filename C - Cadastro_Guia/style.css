@@ -60,3 +60,8 @@ body{
     color: #18A900;
     text-decoration: underline;
 }
+
+#cadastrar-link{
+    text-decoration: none;
+    color: black;
+}
