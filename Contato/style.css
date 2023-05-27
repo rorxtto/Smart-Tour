@@ -34,6 +34,9 @@ body{
 
 #entrar-txt{
     margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
 }
 
 .tags{
@@ -59,6 +62,7 @@ body{
 #article{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 #centro{
@@ -67,6 +71,11 @@ body{
     background-color: rgba(24, 169, 0, 0.4);
     border: 1px solid #000000;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #input{
@@ -77,6 +86,32 @@ body{
 #input3{
     width: 800px;
     height: 180px;
-    text-align: right;
+    text-align:start;
 }
+
+#enviartxt{
+    width: 135px;
+    height: 43px;
+    background-color: rgba(24, 169, 0, 0.4);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 26px;
+}
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#criar_conta{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
 

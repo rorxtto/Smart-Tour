@@ -156,7 +156,7 @@ fieldset{
 }
 
 #change-foto{
-    position: relative;
+   
     align-items: center;
     width: 201px;
     height: 201px;
@@ -178,4 +178,11 @@ fieldset{
 input::placeholder {
     font-size: 20px;
     text-align: center;
+}
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
 }

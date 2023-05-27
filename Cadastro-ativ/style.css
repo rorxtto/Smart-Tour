@@ -16,13 +16,18 @@ body{
     margin-left: 20px;
 }
 
+#perfil{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
 
 #logar{
     display: flex;
     font-size: 14px;
     margin-left: 1200px;
     margin-top: 31px;
-    
 }
 
 #entrar-txt{
@@ -43,7 +48,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 0;
-    
+    font-size: 25px;
 }
 
 #titulo{
@@ -173,4 +178,10 @@ fieldset grupo{
     height: 20px;
     margin-top: 13px;
     margin-left: 16px;
+}
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
 }

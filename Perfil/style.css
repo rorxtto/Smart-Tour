@@ -1,0 +1,267 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+#entrar{
+    background-color: #18A900;
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border-radius: 2px;
+    color: white;
+    margin-left: 20px;
+}
+
+#img-perfil{
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+#logar{
+    display: flex;
+    font-size: 14px;
+    margin-left: 1200px;
+    margin-top: 31px;
+}
+
+#entrar-txt{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#criar_conta{
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 25px;
+}
+
+#titulo{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#slogan{
+    font-size: 40px;
+    margin-left: 440px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+}
+
+#home{
+    background-color: rgba(24, 169, 0, 0.4);
+    width: 400px;
+    height: 500px;
+}
+
+#perfil{
+    border-radius: 100px;
+    width: 65px;
+    height: 65px;
+    margin-left: 7px;
+}
+
+#title{
+    margin-top: 0px;
+    text-align: center;
+}
+
+#imagem{
+    width: 1465px;
+    height: 200px;
+}
+
+#conversa{
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#conversa2{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 303px;
+    margin-left: 19px;
+}
+
+#footerHome{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+}
+
+#ronaldo{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 24px;
+    width: 104px;
+    margin: 0px;
+}
+
+#frase{
+    font-size: 13px;    
+    margin: 0px;
+}
+
+#minibox{
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+#article{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#central{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#alterarFoto{
+    font-size: 16px;
+    color:#7F7F7F;
+    margin: 0px;
+}
+
+#ronaldo2{
+    font-size: 40px;
+    margin: 0px;
+    font-style: normal;
+}
+
+#localidade{
+    font-size: 24px;
+    color: #7F7F7F;
+    margin: 0px;
+    font-style: normal;
+}
+
+#subGuia{
+    font-size: 20px;
+    color: #7F7F7F;
+    margin: 0px ;
+}
+
+#seguir{
+    width: 113px;
+    height: 28px;
+    background-color: #18A900;
+    color: white;
+    margin: 0px;
+    border: none;
+    border-radius: 3px;
+}
+
+#bio{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+#tituloBio{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#alterarBio{
+    font-size: 16px;
+    color: #7F7F7F;
+    margin: 0px;
+}
+
+#div3{
+    background-color: rgba(24, 169, 0, 0.4);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#imgDiv3{
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+#atvRecentes{
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+#addAtividade{
+    width: 174px;
+    height: 40px;
+    background-color: #18A900;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+#divImg2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#img2{
+    width: 201px;
+    height: 201px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#imagem{
+    margin-bottom: 10px;
+}
+
+#text-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#add-link{
+    text-decoration: none;
+    color: white;
+}
