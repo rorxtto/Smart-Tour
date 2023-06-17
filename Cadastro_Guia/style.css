@@ -1,26 +1,26 @@
-body{
+body {
     padding: 0;
     margin: 0;
     border: 0;
     font-family: Poppins
 }
 
-#img{
+#img {
     position: absolute;
     width: 457.95px;
     height: 815px;
 }
 
-#titulo{
+#titulo {
     margin-left: 600px;
     margin-top: 0px;
     font-size: 35px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+
 }
 
-#principal{
+#principal {
     margin-left: 600px;
     flex-direction: column;
     display: flex;
@@ -29,18 +29,18 @@ body{
     margin-top: 0px;
 }
 
-#dados{
+#dados {
     margin-top: 10px;
     height: 30px;
     border-radius: 5px;
 }
 
-#subtitulo{
-    font-size:  30px;
+#subtitulo {
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
-#botao{
+#botao {
     margin-left: 850px;
     width: 125px;
     height: 35px;
@@ -49,19 +49,19 @@ body{
     font-weight: bold;
 }
 
-#link{
+#link {
     margin-left: 790px;
     color: #18A900;
     text-decoration: underline;
 }
 
-#link2{
+#link2 {
     margin-left: 885px;
     color: #18A900;
     text-decoration: underline;
 }
 
-#cadastrar-link{
+#cadastrar-link {
     text-decoration: none;
     color: black;
 }
