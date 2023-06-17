@@ -7,14 +7,9 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 5.375rem;
+    margin-bottom: 2rem;
 }
 
-hr {
-    height: 0.1rem;
-    margin-left: -8px;
-    width: 84.2rem;
-    background-color: rgb(0, 0, 0);
-}
 
 header ul {
     display: flex;
@@ -37,7 +32,7 @@ header ul {
 
 .imagensgrandes {
     display: flex;
-    gap: 2rem;
+    justify-content: space-around;
 }
 
 .oncaimagem {
@@ -54,14 +49,8 @@ header ul {
 
 .textoeanuncio {
     display: flex;
-    justify-content: center;
-    width: 1341px;
-}
+    justify-content: space-around;
 
-.refugiotexto {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .tituloregufio {
@@ -76,17 +65,22 @@ header ul {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
+    display: flex;
+    justify-content: center;
 }
 
 .anuncio {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #D9D9D9;
-    width: 305px;
+    width: 292px;
 }
 
 .fotoenome {
     display: flex;
+    gap: 3rem;
 }
 
 .fotoguia {
@@ -97,9 +91,6 @@ header ul {
     border-radius: 50px;
 }
 
-.ajustarnomeguia {
-    margin-left: 3rem;
-}
 
 .tagguia {
     margin-left: -23px;
@@ -110,18 +101,16 @@ header ul {
 }
 
 .nomeguia {
-    margin-top: -40px;
-    margin-left: -30px;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
 }
 
 .tempoativ {
-    margin-left: 2rem;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    text-align: center;
 }
 
 .textoanuncio {
@@ -135,7 +124,6 @@ header ul {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    margin-left: 1rem;
 }
 
 .botao-verde {
@@ -148,11 +136,16 @@ header ul {
     font-size: 24px;
     cursor: pointer;
     display: flex;
-    margin-left: 5rem;
-    margin-top: -1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-#link{
+#link {
     text-decoration: none;
     color: black;
+}
+
+.gapdasimagensetextos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
