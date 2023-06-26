@@ -39,10 +39,11 @@
         <div id="principal">
 
             <h1 id="login"> Login </h1>
-            <input id="text" type="text" placeholder="E-mail">
-            <input id="text" type="password" placeholder="Digite sua Senha">
+            <input class="text" type="text" placeholder="E-mail" id="email">
+            <input class="text" type="password" placeholder="Digite sua Senha" id="senhaJS">
+           
 
-            <button id="botao"> <a id="a-link" href="../Home/home.html"> ENTRAR</a> </button>
+            <button id="botao"> <a id="a-link" onclick="entrar()"> ENTRAR</a> </button>
             <div id="senha">
                 <p> Esqueceu sua Senha?</p>
                 <a href="../Esqueceu_Senha/senha.html" id="link"> Clique aqui</a>
@@ -52,6 +53,8 @@
 
 
     </article>
+
+    <script src="./login.js"></script>
 
 
 </body>
