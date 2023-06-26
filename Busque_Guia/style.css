@@ -9,13 +9,6 @@ header {
     height: 5.375rem;
 }
 
-hr {
-    height: 0.1rem;
-    margin-left: -8px;
-    width: 84rem;
-    background-color: rgb(0, 0, 0);
-}
-
 header ul {
     display: flex;
     list-style: none;
@@ -68,7 +61,8 @@ header ul {
 
 .guiasefiltros {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+
 }
 
 .filtrodebuscaguias {
@@ -228,14 +222,14 @@ header ul {
 
 }
 
-#busca{
+.busca {
     width: 700px;
     height: 56px;
     border: none;
-    
+
 }
 
-#buscar{
+.buscar {
     background-color: #18A900;
     display: flex;
     width: 250px;
@@ -244,18 +238,18 @@ header ul {
     color: white;
 }
 
-#buscar-img{
+.buscar-img {
     width: 20px;
     height: 20px;
     margin-top: 20px;
     margin-left: 16px;
 }
 
-#buscar-txt{
+.buscar-txt {
     margin-left: 15px;
 }
 
-#container-buscar{
+.container-buscar {
     display: flex;
     border: 5px solid rgba(24, 169, 0, 0.4);
     width: 900px;
@@ -264,7 +258,7 @@ header ul {
     margin-top: 50px;
 }
 
-#link{
+#link {
     text-decoration: none;
     color: black;
 }

@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     border: 0;
@@ -6,7 +6,7 @@ body{
     font-style: normal;
 }
 
-#entrar{
+#entrar {
     background-color: #18A900;
     display: flex;
     width: 136px;
@@ -16,79 +16,79 @@ body{
     margin-left: 20px;
 }
 
-#img-perfil{
+#img-perfil {
     width: 20px;
     height: 20px;
     margin-top: 13px;
     margin-left: 16px;
 }
 
-#logar{
+#logar {
     display: flex;
     font-size: 14px;
     margin-left: 1200px;
     margin-top: 31px;
 }
 
-#entrar-txt{
+#entrar-txt {
     margin-left: 15px;
     color: black;
     text-decoration: none;
     margin-top: 15px;
 }
 
-#criar_conta{
+#criar_conta {
     margin-left: 15px;
     color: black;
     text-decoration: none;
     margin-top: 15px;
 }
 
-.tags{
+.tags {
     display: flex;
     justify-content: space-around;
     margin: 0;
     font-size: 25px;
 }
 
-#titulo{
+#titulo {
     font-size: 55px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-#slogan{
+#slogan {
     font-size: 40px;
     margin-left: 440px;
     margin-top: 0;
     margin-bottom: 50px;
-    
+
 }
 
-#home{
+#home {
     background-color: rgba(24, 169, 0, 0.4);
     width: 400px;
     height: 500px;
 }
 
-#perfil{
+#perfil {
     border-radius: 100px;
     width: 65px;
     height: 65px;
     margin-left: 7px;
 }
 
-#title{
+#title {
     margin-top: 0px;
     text-align: center;
 }
 
-#imagem{
+#imagem {
     width: 1465px;
     height: 200px;
 }
 
-#conversa{
+#conversa {
     background-color: white;
     width: 350px;
     height: 100px;
@@ -97,9 +97,10 @@ body{
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    
+
 }
-#conversa2{
+
+#conversa2 {
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -107,14 +108,14 @@ body{
     margin-left: 19px;
 }
 
-#footerHome{
+#footerHome {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 300px;
 }
 
-#ronaldo{
+#ronaldo {
     margin-top: 0px;
     text-align: center;
     font-size: 24px;
@@ -122,12 +123,12 @@ body{
     margin: 0px;
 }
 
-#frase{
-    font-size: 13px;    
+#frase {
+    font-size: 13px;
     margin: 0px;
 }
 
-#minibox{
+#minibox {
     width: 350px;
     height: 100px;
     border: none;
@@ -135,48 +136,48 @@ body{
     font-size: 19px;
 }
 
-#article{
+#article {
     display: flex;
     align-items: end;
     justify-content: space-between;
 }
 
-#central{
+#central {
     width: 250px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+
 }
 
-#alterarFoto{
+#alterarFoto {
     font-size: 16px;
-    color:#7F7F7F;
+    color: #7F7F7F;
     margin: 0px;
 }
 
-#ronaldo2{
+#ronaldo2 {
     font-size: 40px;
     margin: 0px;
     font-style: normal;
 }
 
-#localidade{
+#localidade {
     font-size: 24px;
     color: #7F7F7F;
     margin: 0px;
     font-style: normal;
 }
 
-#subGuia{
+#subGuia {
     font-size: 20px;
     color: #7F7F7F;
-    margin: 0px ;
+    margin: 0px;
 }
 
-#seguir{
+#seguir {
     width: 113px;
     height: 28px;
     background-color: #18A900;
@@ -186,25 +187,25 @@ body{
     border-radius: 3px;
 }
 
-#bio{
+#bio {
     display: flex;
     flex-direction: column;
     text-align: start;
-    
+
 }
 
-#tituloBio{
+#tituloBio {
     font-size: 24px;
     margin-bottom: 0px;
 }
 
-#alterarBio{
+#alterarBio {
     font-size: 16px;
     color: #7F7F7F;
     margin: 0px;
 }
 
-#div3{
+#div3 {
     background-color: rgba(24, 169, 0, 0.4);
     width: 400px;
     height: 500px;
@@ -214,18 +215,18 @@ body{
     text-align: center;
 }
 
-#imgDiv3{
+#imgDiv3 {
     width: 300px;
     height: 100px;
     border-radius: 30px;
 }
 
-#atvRecentes{
+#atvRecentes {
     font-size: 24px;
     margin-top: 0px;
 }
 
-#addAtividade{
+#addAtividade {
     width: 174px;
     height: 40px;
     background-color: #18A900;
@@ -234,7 +235,7 @@ body{
     margin-top: 30px;
 }
 
-#divImg2{
+#divImg2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +244,7 @@ body{
 }
 
 
-#img2{
+#img2 {
     width: 201px;
     height: 201px;
     border-radius: 100px;
@@ -251,17 +252,17 @@ body{
     margin-top: 50px;
 }
 
-#imagem{
+#imagem {
     margin-bottom: 10px;
 }
 
-#text-link{
+#text-link {
     margin-top: 30px;
     text-decoration: none;
     color: black;
 }
 
-#add-link{
+#add-link {
     text-decoration: none;
     color: white;
 }

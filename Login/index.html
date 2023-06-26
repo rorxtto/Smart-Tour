@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div id="logar">
             <a id="criar_conta" href="../Cadastro_Turista/turista.html"> Criar conta </a>
             <div id="entrar">
-                <img id="perfil" src="./imgSenha/perfil.png">
+                <img id="perfil" src="./imgLogin/shape.png">
                 <a id="entrar-txt" href="../Login/login.html"> Entrar</a>
             </div>
         </div>
@@ -34,16 +37,26 @@
 
     <article>
         <div id="principal">
-            <h1> Esqueceu sua Senha?</h1>
-            <p id="text">Nós enviaremos um e-mail com os processos para a redefinição da senha.</p>
-            <input id="senha" type="text" placeholder=" Digite seu e-mail">
-            <button id="botao">Enviar</button>
+
+            <h1 id="login"> Login </h1>
+            <input class="text" type="text" placeholder="E-mail" id="email">
+            <input class="text" type="password" placeholder="Digite sua Senha" id="senhaJS">
+           
+
+            <button id="botao"> <a id="a-link" onclick="entrar()"> ENTRAR</a> </button>
+            <div id="senha">
+                <p> Esqueceu sua Senha?</p>
+                <a href="../Esqueceu_Senha/senha.html" id="link"> Clique aqui</a>
+            </div>
         </div>
 
 
 
     </article>
 
-    
+    <script src="./login.js"></script>
+
+
 </body>
+
 </html>
