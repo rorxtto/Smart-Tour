@@ -30,7 +30,7 @@ function entrar() {
         alert("preencha todos os campos")
     } else {
         if (email.value == userValid.email && senha.value == userValid.senha) {
-            window.location.href = '../Home/home.html'
+            window.location.href = '../Home/index.html'
         } else {
             alert(' email ou senha incorretos')
         }

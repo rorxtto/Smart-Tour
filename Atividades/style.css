@@ -76,6 +76,8 @@ header ul {
     justify-content: center;
     background-color: #D9D9D9;
     width: 292px;
+    height: 413px;
+    border-radius: 10px;
 }
 
 .fotoenome {
@@ -111,6 +113,7 @@ header ul {
     font-weight: 500;
     font-size: 24px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .textoanuncio {
@@ -148,4 +151,11 @@ header ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+#descripition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

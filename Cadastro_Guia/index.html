@@ -25,22 +25,21 @@
     <article>
         <div id="principal">
             <h1 id="subtitulo"> Seus dados como Guia </h1>
-            <input id="dados" type="text" placeholder=" Nome Completo">
-            <input id="dados" type="text" placeholder=" Numero de Celular">
-            <input id="dados" type="text" placeholder=" Rg">
-            <input id="dados" type="text" placeholder=" E-mail" name="inputemail">
-            <input id="dados" type="password" placeholder=" Digite sua Senha">
-            <input id="dados" type="password" placeholder=" Confirme sua Senha">
-            <input id="dados" type="password" placeholder=" Cadastour">
-
+            <input class="dados" type="text" placeholder=" Nome Completo" id="nome">
+            <input class="dados" type="text" placeholder=" Numero de Celular" id="celular">
+            <input class="dados" type="text" placeholder=" Rg" id="RG">
+            <input class="dados" type="text" placeholder=" E-mail" name="inputemail" id="email">
+            <input class="dados" type="password" placeholder=" Digite sua Senha" id="senha">
+            <input class="dados" type="password" placeholder=" Confirme sua Senha" id="confirmSenha">
+            <input class="dados" type="text" placeholder=" Cadastour" id="cadastour">
         </div>
 
     </article>
 
     <footer>
-        <button id="botao" onclick="validarEmail()"> <a id="cadastrar-link"> CADASTRAR </a> </button>
-        <a href="../Cadastro_Turista/turista.html" id="link"> QUERO SER TURISTA NA SMART TOUR </a>
-        <a id="link2" href="../Login/login.html"> ENTRAR </p>
+        <button id="botao" onclick="cadastrar()"> <a id="cadastrar-link"> CADASTRAR </a> </button>
+        <a href="../Cadastro_Turista/index.html" id="link"> QUERO SER TURISTA NA SMART TOUR </a>
+        <a id="link2" href="../Login/index.html"> ENTRAR </p>
     </footer>
 
     <script src="./main.js"></script>

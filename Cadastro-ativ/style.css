@@ -122,7 +122,7 @@ body {
 
 }
 
-#campo-preenchimento {
+.campo-preenchimento {
     width: 477px;
     height: 55px;
     display: flex;

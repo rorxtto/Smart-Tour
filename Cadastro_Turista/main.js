@@ -93,7 +93,6 @@ let validNome = false;
 
 
 
-
 function cadastrar(){
 
   if(validCelular && validConfirmSenha && validEmail && validNome && validSenha){
@@ -114,7 +113,7 @@ function cadastrar(){
  
   
    setTimeout(()=>{
-    window.location.href = './../Login/login.html'
+    window.location.href = '../Login/index.html'
   }, 1500)
     
 
