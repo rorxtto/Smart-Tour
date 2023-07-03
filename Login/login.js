@@ -31,6 +31,11 @@ function entrar() {
     } else {
         if (email.value == userValid.email && senha.value == userValid.senha) {
             window.location.href = '../Home/index.html'
+
+            localStorage.setItem('userLogado', JSON.stringify(userValid))
+
+
+
         } else {
             alert(' email ou senha incorretos')
         }

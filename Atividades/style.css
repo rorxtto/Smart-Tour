@@ -39,6 +39,7 @@ header ul {
     display: flex;
     width: 981px;
     height: 413px;
+    border-radius: 10px;
 }
 
 .imagem2 {
@@ -53,9 +54,9 @@ header ul {
 
 }
 
-.tituloregufio {
+#titulo {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
@@ -75,7 +76,7 @@ header ul {
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
-    width: 292px;
+    width: 2000px;
     height: 413px;
     border-radius: 10px;
 }
@@ -155,7 +156,7 @@ header ul {
 
 #descripition{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
 }

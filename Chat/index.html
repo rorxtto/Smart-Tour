@@ -24,7 +24,7 @@
         <div class="cabecalho">
 
             <div class="tags">
-                <a id="text-link" href="../Busque_Guia/index.html"> Guias </a>
+                <a id="text-link" href="../Chat/index.html"> Chat </a>
                 <a id="text-link" href="../Atividades/index.html"> Atividade </a>
                 <p class="titulo"> Smart Tour </p>
                 <a id="text-link" href="../Sobre_nos/index.html"> Sobre nós </a>
@@ -74,26 +74,27 @@
             </div>
         </div>
         <div class="campodechat">
-            <h1 class="textoconversa">Conversa</h1>
-            <div class="conversadochat1">
+            <!-- <h1 class="textoconversa">Conversa</h1> -->
+            <!-- <div class="conversadochat1">
                 <img src="./img/guia-turismo-con 3.png" alt="Ronaldo" class="fotoronaldonochat">
                 <p class="bomdia">Bom dia</p>
+            </div> -->
+            <div id="conversadochat2">
+                <img id="imagemJS" src="./img/turistas 1 (1).png" alt="Turista" class="turistanochat">
             </div>
-            <div class="conversadochat2">
-                <img src="./img/turistas 1 (1).png" alt="Turista" class="turistanochat">
-                <p class="bomdia">Bom dia</p>
-            </div>
+
             <div class="entradadetextoebotao">
                 <div class="entradadetexto">
-                    <p class="caixacinza">Digite sua mensagem</p>
+                    <input id="caixaJS" class="caixacinza" type="text" placeholder="Digite sua mensagem">
                 </div>
                 <div class="botaoenviar">
-                    <p class="botaoverde">Enviar</p>
+                    <button id="botaoJS" onclick="enviar()" class="botaoverde">Enviar</button>
                 </div>
             </div>
 
         </div>
     </section>
+    <script src="./main.js"></script>
 </body>
 
 </html>

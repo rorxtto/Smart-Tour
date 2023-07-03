@@ -11,7 +11,7 @@ let valor = document.getElementById("valor");
 let link = document.getElementById("link");
 validLink = false;
 
-atividade.addEventListener('keyup', () => {
+atividade.addEventListener('mouseout', () => {
     if (atividade.value != '') {
       if (atividade.value.length <= 2) {
   
@@ -24,7 +24,7 @@ atividade.addEventListener('keyup', () => {
     }
   })
 
-  tempo.addEventListener('keyup', () => {
+  tempo.addEventListener('mouseout', () => {
     const numeroTempo = tempo.value;
   
     const regexTempo = /^(?:[1-9]|1\d|2[0-4])$/;
@@ -40,7 +40,7 @@ atividade.addEventListener('keyup', () => {
   });
 
 
-  link.addEventListener('keyup', () => {
+  link.addEventListener('mouseout', () => {
     const numeroLink = link.value;
   
     const regexLink = /^(http|https):\/\/[\w\-]+(\.[\w\-]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-@?^=%&/~\+#])?$/;

@@ -63,7 +63,7 @@ body{
     
 }
 
-#busca{
+.busca{
     width: 700px;
     height: 56px;
     border: none;
@@ -86,8 +86,12 @@ body{
     margin-left: 16px;
 }
 
-#buscar-txt{
+.buscar-txt{
     margin-left: 15px;
+    background-color: #18A900;
+    color: white;
+    border: none;
+    font-size: 16px;
 }
 
 #container-buscar{

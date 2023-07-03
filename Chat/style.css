@@ -123,6 +123,10 @@ body {
     border-radius: 2%;
     width: 1440px;
     background-color: rgba(24, 169, 0, 0.4);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .textoconversa {
@@ -145,7 +149,7 @@ body {
     border-radius: 50%;
 }
 
-.bomdia {
+#bomdia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,10 +163,11 @@ body {
     border-radius: 50%;
 }
 
-.conversadochat2 {
+#conversadochat2 {
     display: flex;
     justify-content: flex-end;
-    margin: 5rem;
+    flex-direction: column;
+    margin: 1rem;
     gap: 1rem;
 }
 
@@ -170,6 +175,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .caixacinza {
@@ -183,6 +189,7 @@ body {
     color: #7F7F7F;
     background-color: #D9D9D9;
     border-radius: 30px;
+    border: none;
 }
 
 .botaoverde {
@@ -196,11 +203,13 @@ body {
     font-weight: 500;
     font-size: 20px;
     color: #FFFFFF;
+    border: none;
 }
 
 .entradadetextoebotao {
     display: flex;
     gap: 2rem;
+    margin-left: 5rem;
 }
 
 #text-link {

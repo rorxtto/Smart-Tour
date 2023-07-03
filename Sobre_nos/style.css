@@ -60,7 +60,6 @@ body {
 .text {
     display: flex;
     height: 700px;
-    gap: 15rem;
 }
 
 #text2 {
