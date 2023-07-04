@@ -126,7 +126,7 @@ function cadastrar() {
 
 
     setTimeout(() => {
-      window.location.href = '../Cadastro-ativ/index.html'
+      window.location.href = '../Cadastro-ativ/cadastroAtividades.html'
     }, 1000)
 
 

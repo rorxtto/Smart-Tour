@@ -30,7 +30,7 @@ function entrar() {
         alert("preencha todos os campos")
     } else {
         if (email.value == userValid.email && senha.value == userValid.senha) {
-            window.location.href = '../Home/index.html'
+            window.location.href = './Home/home.html'
 
             localStorage.setItem('userLogado', JSON.stringify(userValid))
 

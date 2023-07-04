@@ -113,7 +113,7 @@ function cadastrar(){
  
   
    setTimeout(()=>{
-    window.location.href = '../Login/index.html'
+    window.location.href = '../Login/login.html'
   }, 1500)
     
 

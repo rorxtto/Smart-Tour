@@ -37,7 +37,7 @@ function entrar(){
     });
 
    if(input.value == atividadeValid.atividade){
-    window.location.href = '../Atividades/index.html'
+    window.location.href = '../Atividades/atividades.html'
     localStorage.setItem('atividadeLogada', JSON.stringify(atividadeValid))
 
 

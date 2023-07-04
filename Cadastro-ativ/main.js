@@ -78,7 +78,7 @@ atividade.addEventListener('mouseout', () => {
 
   
       setTimeout(() => {
-        window.location.href = '../Chat/index.html'
+        window.location.href = '../Chat/chat.html'
       }, 1000)
   
   

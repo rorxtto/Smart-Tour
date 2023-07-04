@@ -12,37 +12,39 @@
 </head>
 
 <body>
-    <img id="img" src="./img_Guia/imgGuia.jpeg">
+    <img id="img" src="./img_turista/imgTurista.jpeg">
 
     <header>
 
-        <h1 id="titulo"> Preencha os campos para cadastro<br>
-            e comece a conhecer uma nova <br>
-            maneira de fazer turismo. </h1>
+        <h1 id="titulo"> Cadastre-se e faça parte de uma <br>
+            nova experiência turística. </h1>
 
     </header>
 
     <article>
-        <div id="principal">
-            <h1 id="subtitulo"> Seus dados como Guia </h1>
+        <form id="principal">
+            <h1 id="subtitulo"> Seus dados como Turista </h1>
             <input class="dados" type="text" placeholder=" Nome Completo" id="nome">
             <input class="dados" type="text" placeholder=" Numero de Celular" id="celular">
-            <input class="dados" type="text" placeholder=" Rg" id="RG">
-            <input class="dados" type="text" placeholder=" E-mail" name="inputemail" id="email">
+            <input class="dados" type="text" placeholder=" Rg ou Passaporte" id="RG">
+            <input class="dados" type="email" placeholder=" E-mail" id="email">
             <input class="dados" type="password" placeholder=" Digite sua Senha" id="senha">
             <input class="dados" type="password" placeholder=" Confirme sua Senha" id="confirmSenha">
-            <input class="dados" type="text" placeholder=" Cadastour" id="cadastour">
-        </div>
-
+            
+        </form>
+        
     </article>
-
+    
     <footer>
-        <button id="botao" onclick="cadastrar()"> <a id="cadastrar-link"> CADASTRAR </a> </button>
-        <a href="../Cadastro_Turista/index.html" id="link"> QUERO SER TURISTA NA SMART TOUR </a>
-        <a id="link2" href="../Login/index.html"> ENTRAR </p>
+        <button id="botao"> <a id="cadastrar-link" onclick="cadastrar()"> CADASTRAR </a> </button>
+        <a href="../Cadastro_Guia/cadastroGuia.html" id="link"> QUERO SER GUIA NA SMART TOUR </a>
+        <a id="link2" href="../Login/login.html"> ENTRAR </p>
     </footer>
 
+
     <script src="./main.js"></script>
+
+
 
 </body>
 
